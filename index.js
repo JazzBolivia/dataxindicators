@@ -14,7 +14,7 @@ const { url } = require('inspector');
 // inicializando la aplicacion
 const app = express();
 // especificando un puerto, puede ser cualquier numero 
-const PORT = 8000;
+const PORT = 5000;
 // inicializando el middleware necesario para el parser
 app.use(express.urlencoded({
     extended:true
