@@ -36,6 +36,20 @@ app.use('/agencia_instrumento', agencia_instrumento); // local/cambios/
 //----------------------------------------------------------
 //'/' route
 //creando la ruta '/'
+
+
+
+app.get('/',(req,res) => {
+    res.send('<h1>DATAX APP</h1> <br><br>');
+  
+});
+
+
+app.get('/',(req,res) => {
+    res.send('<h3>Bienvenidos a la Api DATAX </h3><p> Tenemos que trabajar en la documentacion para los usuarios tecnicos</p>');
+  
+});
+
 app.get('/',(req,res) => {
     res.send('<h1>Aqui https://api-datax-indicators.herokuapp.com/   deberia haber informacion importante de la API </h1> <br> <h3>El objetivo de esta API podria cumplir los mismos de las API disponibles de Bloomberg </h3><p> Tenemos que trabajar en la documentacion para los usuarios tecnicos</p>');
   
