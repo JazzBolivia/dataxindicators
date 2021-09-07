@@ -40,7 +40,7 @@ app.use('/agencia_instrumento', agencia_instrumento); // local/cambios/
 
 
 app.get('/',(req,res) => {
-    res.send('<head><style> .heading { color: #003366; }</style></head>  <center><br><img src="https://www.datax.com.bo/images/tigoimgs/DataxReflejo.png"><br><h1 class="heading">API</h1><h3>Bienvenidos a la Api DATAX </h3> <h4>Nuestro enlace es <a href="https://api-datax-indicators.herokuapp.com/">https://api-datax-indicators.herokuapp.com/</a></h4> <br> <h3>El objetivo de esta API podria cumplir los mismos de las API disponibles de Bloomberg</h3>  <h5><p> Copyright© 2012 Datax - Todos los derechos reservados</p></h5>  </center> ');
+    res.send('<head><style> .heading { color: #003366; }</style></head>  <center><br><img src="https://www.datax.com.bo/images/tigoimgs/DataxReflejo.png"><br><h1 class="heading">API</h1><h3>Bienvenidos a la Api DATAX </h3> <h4>Nuestro enlace es <a href="https://api-datax-indicators.herokuapp.com/">https://api-datax-indicators.herokuapp.com/</a></h4> <br> <h3>El objetivo de esta API podria cumplir los mismos de las API disponibles de Bloomberg</h3>  <h5><p> Copyright© 2021 Datax - Todos los derechos reservados</p></h5>  </center> ');
    
     
   
