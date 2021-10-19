@@ -22,7 +22,7 @@ const pool = new Pool({
 */
 
 
-
+/*
 const pool = new Pool({
     user: "postgres",
     password: "datax",
@@ -30,12 +30,12 @@ const pool = new Pool({
     host: "127.0.0.1",
     port: 5432
 });
+*/
 
 
 
 
 
-/*
 const pool = new Pool({
     user: "dataxcom_moises",
     password: ".SPIM-1289$moises",
@@ -43,5 +43,5 @@ const pool = new Pool({
     host: "50.87.177.88",
     port: 5432
 });
-*/
+
 module.exports = pool;
